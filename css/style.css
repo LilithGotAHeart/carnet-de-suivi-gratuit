@@ -69,3 +69,6 @@ footer {
     padding: 30px;
     font-size: 14px;
 }
+header {
+    background: yellow !important;
+}
