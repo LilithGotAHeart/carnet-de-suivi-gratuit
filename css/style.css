@@ -79,3 +79,7 @@ header {
 header h1 {
     margin-bottom: 25px;
 }
+.intro span {
+    color: #5B3A6E !important;
+    font-weight: 400 !important;
+}
