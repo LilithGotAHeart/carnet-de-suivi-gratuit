@@ -98,3 +98,16 @@ a:hover {
     background-color: #5a189a;
     transform: translateY(-2px);
 }
+
+.hero-text {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 850px;
+    margin: 0 auto;
+    color: #444;
+}
+
+.hero-text span {
+    display: block;
+}
