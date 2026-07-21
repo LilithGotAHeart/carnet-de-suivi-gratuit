@@ -109,3 +109,11 @@ a:hover {
 .hero-text span {
     display: block;
 }
+.intro {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.intro span {
+    display: block;
+}
