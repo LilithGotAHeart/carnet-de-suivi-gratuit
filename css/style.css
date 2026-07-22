@@ -336,3 +336,11 @@ font-size:16px;
 .Bienvenue span {
     display: block;
 }
+
+.Bienvenue {
+    text-align: center;
+}
+
+.demarche {
+    text-align: center;
+}
