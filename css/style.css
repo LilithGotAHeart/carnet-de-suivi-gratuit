@@ -316,3 +316,8 @@ font-size:16px;
     margin-top: 20px;
     line-height: 1.5;
 }
+
+.demarche-intro span {
+    display: block;
+    margin-bottom: 8px;
+}
