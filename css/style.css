@@ -66,11 +66,13 @@ header p {
 
 h1 {
 
-color:var(--petrol);
+color:var(--cream);
 
 font-size:2.7rem;
 
 margin-bottom:20px;
+
+text-shadow:0 2px 8px rgba(0,0,0,0.25);
 
 }
 
@@ -82,7 +84,7 @@ max-width:800px;
 
 margin:25px auto 35px;
 
-color:var(--text);
+color:var(--cream);
 
 }
 
@@ -92,6 +94,8 @@ color:var(--text);
 display:block;
 
 margin-bottom:8px;
+
+color:var(--cream);
 
 }
 
