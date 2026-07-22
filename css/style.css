@@ -84,6 +84,15 @@ color:var(--text);
 }
 
 
+.intro span {
+
+display:block;
+
+margin-bottom:8px;
+
+}
+
+
 
 
 main {
