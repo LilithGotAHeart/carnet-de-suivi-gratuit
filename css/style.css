@@ -22,7 +22,7 @@ body {
 
 font-family: 'Nunito', sans-serif;
 
-background-color: #D4E3E6;
+background-color: #F3D6A2;
 
 color: var(--text);
 
@@ -38,24 +38,27 @@ margin:0;
 
 
 header {
+    position: relative;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #142B4A;
+    border-radius: 0 0 40px 40px;
+    overflow: hidden;
+}
 
-text-align:center;
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E");
+    opacity: 0.35;
+    pointer-events: none;
+}
 
-padding:70px 20px;
-
-background:
-linear-gradient(
-135deg,
-#FCFBF9 0%,
-#F8E8ED 55%,
-#E8F0F3 100%
-);
-
-border-radius:0 0 50px 50px;
-
-box-shadow:
-0 8px 25px rgba(41,92,109,0.08);
-
+header h1,
+header p {
+    position: relative;
+    z-index: 1;
 }
 
 
