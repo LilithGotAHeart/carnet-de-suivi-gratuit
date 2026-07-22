@@ -44,12 +44,17 @@ text-align:center;
 padding:70px 20px;
 
 background:
-linear-gradient(135deg,
-var(--pink),
-#ffffff,
-#dbe7f4);
+linear-gradient(
+135deg,
+#FCFBF9 0%,
+#F8E8ED 55%,
+#E8F0F3 100%
+);
 
 border-radius:0 0 50px 50px;
+
+box-shadow:
+0 8px 25px rgba(41,92,109,0.08);
 
 }
 
