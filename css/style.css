@@ -305,3 +305,14 @@ font-size:16px;
 
 
 }
+.telechargement span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.droits {
+    font-size: 13px;
+    color: #5B3A6E;
+    margin-top: 20px;
+    line-height: 1.5;
+}
