@@ -340,3 +340,16 @@ body {
 .demarche {
     text-align: center;
 }
+/* Liens du footer (email et Instagram) */
+
+footer a {
+    color: var(--burgundy);
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: var(--orange);
+    text-decoration: underline;
+}
